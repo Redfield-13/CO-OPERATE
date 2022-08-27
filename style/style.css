@@ -12,6 +12,7 @@ ul{
     height: 100px;
     background: #000;
     border-radius: 0.5%;
+    margin-bottom: 40px;
 }
 
 .right{
@@ -29,11 +30,11 @@ li{
 
 a{
     text-decoration: none;
-    color: orange;
+    color: white;
 }
 
 a:hover{
-    color: rgb(165, 134, 75);
+    color: #AE4C1E;
 }
 
 .logo{
@@ -49,12 +50,106 @@ a:hover{
 
 
 
-/* ABOUT STYLE START */
+/* CONTENT STYLE START */
 
-.about{
-    width: 100%;
-    height: 600px;
-    background-color: lightgoldenrodyellow;
+.content{
+    
+    width: 940px;
+    margin: auto;
 }
 
-/* ABOUT STYLE END */
+.image-slider{
+    width: 100%;
+    height: 380px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.slideshow-arrow{
+    fill:#fff;
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    cursor: pointer;
+}
+
+.slideshow-arrow-r{
+    fill:#fff;
+    position: absolute;
+    right: 30px;
+    top: 180px;
+    cursor: pointer;
+}
+.team,.services,.connect{
+    height: 60px;
+    width: 295px;
+    background-color: #144361;
+    display: inline-block;
+    margin-right: 7px;
+    border-radius: 1%;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.connect{
+    width: 328px;
+    margin-right: 0;
+}
+
+p{
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.left-tri,.left-tri2,.left-tri3{
+    position: absolute;
+    top: 600px;
+    left: 480.1px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 0;
+  border-right: 15px solid #144361;
+  box-shadow: 0 4px 4px 0 rgba(0,, 0, 0, 0.2);
+}
+
+.left-tri2{
+    left: 785px;
+}
+.left-tri3{
+    left: 1091px;
+}
+.right-tri,.right-tri2,.right-tri3{
+    position: absolute;
+    top: 600px;
+    right: 480.1px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 0;
+  border-left: 15px solid #144361;
+}
+
+.right-tri2{
+    right: 820px;
+}
+
+.right-tri3{
+    right: 1125px;
+}
+
+
+
+/* CONTENT STYLE END */

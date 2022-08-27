@@ -1,0 +1,7 @@
+//png01 :
+1-orange -> #AE4C1E
+2-BLUEGREEN -> #014C48
+3-onion -> #E7CCB7
+4-LIGHT BROWN -> #C0A089
+5-brwon -> #524B38
+6-YEllow -> #D8B162
