@@ -1,6 +1,8 @@
-var images = ["./asset/img/comparto-image-01.jpg","./asset/img/gallery-item-03.jpg"]
+var images = ["./asset/img/comparto-image-01.jpg","./asset/img/gallery-item-03.jpg","./asset/img/gallery-item-04.jpg","./asset/img/gallery-item-05.jpg"]
 var show = document.getElementById("show")
 var pos = 0
+
+
 
 var left = document.getElementById('left')
 var right  = document.getElementById('right')
