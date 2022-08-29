@@ -331,5 +331,6 @@ span{
         height: 60px;
         background-color: #144361;
         margin-left: 0;
+        padding-left: 20px;
     }
 }
