@@ -294,9 +294,6 @@ span{
 /* Mobile Styles */
 
 @media screen and (max-width: 1020px) {
-    .navbar{
-        
-    }
     .right{
         display: none;
     }
@@ -326,5 +323,13 @@ span{
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+        height: fit-content;
+        background-color: transparent;
+    }
+
+    .sp{
+        height: 60px;
+        background-color: #144361;
+        margin-left: 0;
     }
 }
