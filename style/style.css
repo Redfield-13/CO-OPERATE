@@ -288,3 +288,43 @@ span{
     height: 100%;
 }
 /* CONTENT STYLE END */
+
+
+
+/* Mobile Styles */
+
+@media screen and (max-width: 1020px) {
+    .navbar{
+        
+    }
+    .right{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 0px;
+    }
+
+    .content{
+        width: 95%;
+    }
+
+    .image-slider{
+        height: 300px;
+    }
+
+    .slideshow-arrow{
+        top: 150px;
+    }
+
+    .slideshow-arrow-r{
+        top: 150px;
+    }
+
+    .team,.services,.connect{
+        display: block;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
