@@ -328,9 +328,37 @@ span{
     }
 
     .sp{
-        height: 60px;
+        height: 50px;
         background-color: #144361;
         margin-left: 0;
         padding-left: 20px;
+        padding-top: 10px;
+    }
+    .connect{
+        display: none;
+    }
+    .news{
+        display: block;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+        background-color: transparent;
+        
+    }
+
+    .sp-n{
+        background-color: #AE4C1E;
+        height: 50px;
+        margin-left: 0;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .img{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
