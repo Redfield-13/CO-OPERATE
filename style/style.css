@@ -404,4 +404,17 @@ span{
     .exp{
         width: 90%;
     }
+
+    .connects{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        /* height: 285px; */
+        background-color: #AE4C1E;
+        color: #fff;
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
 }
