@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* body{
+    height: 1900px;
+} */
+
 /* NAVBAR STYLE START */
 ul{
     padding-right: 100px;
@@ -134,7 +139,7 @@ a:hover{
     color: #5a94b8;
 }
 .yes,.no{
-    height: 60px;
+    /* height: 60px; */
     width: 100%;
     margin-left: 0;
     margin-top: 40px;
@@ -225,6 +230,9 @@ span{
     vertical-align: top;
 
 }
+.connects{
+    display: none;
+}
 
 .news{
     width: 600px;
@@ -292,6 +300,30 @@ span{
 
 
 
+/* FOOTER STYLE START */
+@media screen and (min-width: 1020px){
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+footer{
+    height: 35px;
+    width: 100%;
+    background-color: #144361;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 25px;
+    
+
+}
+
+/* FOOTER STYLE END */
+
+
 /* Mobile Styles */
 
 @media screen and (max-width: 1020px) {
@@ -301,6 +333,7 @@ span{
 
     .logo{
         margin-left: 0px;
+        width: 300px;
     }
 
     .content{

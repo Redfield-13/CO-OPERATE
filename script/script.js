@@ -31,4 +31,9 @@ left.addEventListener('click',function(){
     
 })
 
+var hg  = document.getElementById('body').clientHeight
+
+var footer = document.getElementById('footer')
+
+footer.style.top = "1905px"
 
